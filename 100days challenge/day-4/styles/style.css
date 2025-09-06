@@ -66,11 +66,9 @@ nav li a button {
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 1000px;
     height: 152px;
     font-weight: bold;
     font-size: 65px;
-    height: 100vh;
 }
 
 /* section-Action */
@@ -119,9 +117,12 @@ main {
 
 /* users section */
 .users-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
     background-color: #FFFFFF;
     text-align: center;
-    max-width: 800px;
+    
     width: 100%;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
