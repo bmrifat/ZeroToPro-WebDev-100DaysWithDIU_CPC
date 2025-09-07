@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+}
+
+/* shared styles */
+
+.display-flex {
+    display: flex;
+}
+
+.desktop-only {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-colour {
+    color: #E95A08;
+
+}
+
+.btn-primary {
+    background-color: #E95A08;
+    color: #FFFFFF;
+    padding: 20px 89px;
+    font-size: 1.rem;
+    font-weight: 600;
+    border: none;
+
+}
+
+/* header style */
+
+/* navbar related styles */
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item-home-c {
+    color: #252432;
+}
+
+.color-50p {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.nav-item-colour {
+    color: #8987A1;
+}
+
+.nav-item {
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.banner-title {
+    font-weight: 600px;
+    font-size: 4rem;
+}
+
+.banner-discription {
+    font-weight: 500px;
+    font-size: 1.2rem;
+
+}
+
+.banner {
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 221px;
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* All about flower plant */
+.product-grid {
+    /* border: 2px solid; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    padding: 5px;
+    margin-inline: 250px;
+}
+
+.product-img img {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.product-card {
+    justify-items: center;
+    text-align: center;
+    margin: 5px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.Plants-title {
+    font-weight: 700;
+    font-size: 3.12rem;
+}
+
+.Plants-discription {
+    font-weight: 500px;
+    font-size: 1.2rem;
+}
+
+
+
+
+/* responsive media query */
+@media screen and (max-width: 430px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .desktop-only {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        margin-top: 0;
+        padding: 16px;
+        height: auto;
+        overflow: visible;
+    }
+
+    .banner-img {
+        max-width: 100%;
+        height: auto;
+        order: -1;
+    }
+
+    .Our-Plants {
+        width: 100%;
+        margin: 0 auto;
+        /* padding: 5px 5px;   */
+        box-sizing: border-box;
+    }
+
+    .product-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+    }
+
+    .product-card {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .product-card img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
