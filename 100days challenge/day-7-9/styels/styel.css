@@ -118,7 +118,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
     padding: 5px;
-    margin-inline: 250px;
+
 }
 
 .product-img img {
@@ -147,10 +147,13 @@ main {
 
 /* flower section */
 .flower-section {
+    /* border: 2px solid; */
     display: flex;
     align-items: center;
-    margin: 150px;
-    column-gap: 50px;
+    margin: 100px auto;
+    width: 100%;
+    padding: 40px;
+    column-gap: 80px;
 }
 
 .flower-image {
