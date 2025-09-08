@@ -264,6 +264,45 @@ body {
     max-width: 100%;
 }
 
+/* All about Fotter */
+.footer {
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #8987A1;
+    padding: 40px 60px;
+}
+
+.footer-left img {
+    max-width: 140px;
+}
+
+.footer-center {
+    gap: 80px;
+}
+
+.footer-center ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-center ul li {
+    margin: 8px 0;
+}
+
+.footer-center ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+.footer-right a {
+    margin-left: 15px;
+}
+
+.footer-right img {
+    width: 30px;
+    height: 30px;
+}
 
 /* responsive media query */
 @media screen and (max-width: 430px) {
@@ -316,3 +355,4 @@ body {
         height: auto;
         display: block;
     }
+}
